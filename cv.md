@@ -2,10 +2,10 @@
 #### woman, 25 years old
 
 ## Contacts
-**e-mail:** n.tserkovich@gmail.com
-**phone:** +375(29)5884257 
-**discord:** ntserkovich#6333
-**github:** ntserkovich
+*e-mail:* n.tserkovich@gmail.com
+*phone:* +375(29)5884257 
+*discord:* ntserkovich#6333
+*github:* ntserkovich
 
 ## About me
 Good oral and written communication skills. 
@@ -17,8 +17,8 @@ One of my strengths is that I can learn and try to be inquisitive.
 *Adobe Illustrator, Photoshop, InDesign, Premiere Pro
 
 ## Education
-***University:** Belarusian State University, Faculty of Journalism
-***Courses:** RS School
+*University:* Belarusian State University, Faculty of Journalism
+*Courses:* RS School
 
 ## Experience
 
