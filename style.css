@@ -9,11 +9,12 @@ body {
     flex-direction: column;
     justify-content: space-between;
   font-family: 'Roboto', sans-serif;
+  font-size: 18px;
 }
 header,
 main,
 footer  {
-   border: 1px solid red; 
+   border: 1px solid white; 
 }
 
 header {
@@ -34,6 +35,8 @@ header {
     align-self: center;
     text-align: center;
     color: white;
+    text-transform: uppercase;
+    line-height: 8px;
 }
 .header-photo {
    width: 40%;
@@ -57,9 +60,11 @@ transition: color .3s;
 .nav-link:hover {
     color:#34dbee;
 }
-h2 {
+.section-title {
     border-left: 10px solid #732240;
     border-bottom: 2px solid #732240;
+    letter-spacing: 4px;
+    padding-left: 8px;
 }
 .container-main {
     display: flex;
@@ -84,6 +89,7 @@ section {
 footer {
     padding: 20px;
     background: #8C6056;
+    font-weight: bold;
 }
 .container-footer {
     display: flex;
@@ -97,5 +103,12 @@ footer {
 .icon-git {
     width: 45px;
     height: 45px;
-   
+}
+a {
+    color: #732240;
+    text-decoration: none;
+    font-weight: bold;
+}
+.section-list {
+    list-style: none; 
 }
