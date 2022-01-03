@@ -16,10 +16,29 @@ footer  {
    border: 1px solid red; 
 }
 
+header {
+    background: #732240;
+}
 .container {
     max-width: 1440px;
     margin: 0 auto;
 }
+.nav {
+    background-color: #b93163;
+}
+.header-info {
+    display: flex; 
+}
+.header-name {
+    flex-grow: 1;
+    align-self: center;
+    text-align: center;
+    color: white;
+}
+.header-photo {
+   width: 40%;
+}
+
 ul.nav-list {
     display: flex;
     flex-direction: row;
@@ -31,12 +50,52 @@ ul.nav-list {
 .nav-link {
 padding: 0 20px;
 line-height: 50px;
-color:black;
+color:white;
 text-decoration: none;
 transition: color .3s;
 }
 .nav-link:hover {
-    color: cyan;
+    color:#34dbee;
+}
+h2 {
+    border-left: 10px solid #732240;
+    border-bottom: 2px solid #732240;
+}
+.container-main {
+    display: flex;
+    justify-content: space-around ;
+    flex-wrap: wrap;
 }
 
-
+.section {
+    width: calc(50% - 20px);
+    padding: 10px;
+    padding-bottom: 35px;
+    
+}
+@media (max-width: 768px) {
+    .section {
+        width: 100%
+    }
+}
+section {
+    display: block;
+}
+footer {
+    padding: 20px;
+    background: #8C6056;
+}
+.container-footer {
+    display: flex;
+    justify-content: space-around;
+}
+.rss {
+    width: 121px;
+    height: 45px;
+    
+}
+.icon-git {
+    width: 45px;
+    height: 45px;
+   
+}
