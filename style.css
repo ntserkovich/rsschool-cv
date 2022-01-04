@@ -1,0 +1,121 @@
+* { 
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+header,
+main,
+footer  {
+   border: 1px solid white; 
+}
+
+header {
+    background: #732240;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.nav {
+    background-color: #b93163;
+}
+.header-info {
+    display: flex; 
+}
+.header-name {
+    flex-grow: 1;
+    align-self: center;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    line-height: 8px;
+}
+.header-photo {
+   width: 40%;
+}
+
+ul.nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around ;
+    align-items: center;
+    list-style: none;
+
+}
+.nav-link {
+padding: 0 20px;
+line-height: 50px;
+color:white;
+text-decoration: none;
+transition: color .3s;
+}
+.nav-link:hover {
+    color:#34dbee;
+}
+.section-title {
+    border-left: 10px solid #732240;
+    border-bottom: 2px solid #732240;
+    letter-spacing: 4px;
+    padding-left: 8px;
+}
+.container-main {
+    display: flex;
+    justify-content: space-around ;
+    flex-wrap: wrap;
+}
+
+.section {
+    width: calc(50% - 20px);
+    padding: 10px;
+    padding-bottom: 35px;
+    
+}
+@media (max-width: 768px) {
+    .section {
+        width: 100%
+    }
+.header-name h1 {
+    font-size: 100% ;
+}
+.header-name h3 {
+    font-size: 80% 
+}
+}
+section {
+    display: block;
+}
+footer {
+    padding: 20px;
+    background: #8C6056;
+    font-weight: bold;
+}
+.container-footer {
+    display: flex;
+    justify-content: space-around;
+}
+.rss {
+    width: 121px;
+    height: 45px;
+    
+}
+.icon-git {
+    width: 45px;
+    height: 45px;
+}
+a {
+    color: #732240;
+    text-decoration: none;
+    font-weight: bold;
+}
+.section-list {
+    list-style: none; 
+}
+}
